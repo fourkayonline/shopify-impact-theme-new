@@ -56,8 +56,8 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/website-logo-black.png",
-        "logo_max_width": 120,
+        "logo": "shopify://shop_images/fourkay-logo.png",
+        "logo_max_width": 80,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
@@ -71,7 +71,6 @@
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/website-logo.png",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
