@@ -36,8 +36,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Enjoy free and fast shipping on all prepaid orders.</p>"
+            "title": "Fast Shipping",
+            "content": "<p>Enjoy fast shipping on all orders with updates shared via WhatsApp</p>"
           }
         },
         "payment": {
@@ -50,7 +50,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Secure payment",
-            "content": "<p>Razorpay trusted business with Cash on Delivery available.<br/></p>"
+            "content": "<p><br/>Securely pay online or with Cash on Delivery available.<br/></p>"
           }
         }
       },
@@ -66,7 +66,7 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#f6f1e8",
         "background_gradient": "",
         "text_color": ""
       }
