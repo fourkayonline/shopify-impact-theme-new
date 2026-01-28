@@ -11,10 +11,26 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "custom_liquid_pxPebL": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"fourkay-custom-contact\">\n\n  <h2>Need Product Customisation?</h2>\n\n  <p>\n    Looking for customised dimensions, materials, or bulk requirements?\n    Our team offers practical, manufacturing-led solutions built to last.\n  </p>\n\n  <div class=\"fourkay-contact-actions\">\n\n    <a href=\"https://wa.me/919030663609\" target=\"_blank\" class=\"fk-btn whatsapp\">\n      💬 Chat on WhatsApp\n    </a>\n\n    <a href=\"tel:+919030663609\" class=\"fk-btn call\">\n      📞 Call: 9030663609\n    </a>\n\n    <a href=\"tel:+917386045842\" class=\"fk-btn call\">\n      📞 Call: 7386045842\n    </a>\n\n    <a href=\"mailto:info@fourkay.in\" class=\"fk-btn email\">\n      ✉️ Email: info@fourkay.in\n    </a>\n\n  </div>\n\n  <p class=\"fk-note\">\n    Available for homes, hostels, offices & institutional requirements.\n  </p>\n\n</div>\n\n<style>\n.fourkay-custom-contact {\n  background: #f6f6f6;\n  padding: 40px 20px;\n  text-align: center;\n  border-radius: 8px;\n}\n\n.fourkay-custom-contact h2 {\n  font-size: 26px;\n  margin-bottom: 10px;\n}\n\n.fourkay-custom-contact p {\n  font-size: 15px;\n  color: #555;\n}\n\n.fourkay-contact-actions {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 14px;\n  justify-content: center;\n  margin-top: 25px;\n}\n\n.fk-btn {\n  padding: 14px 20px;\n  font-size: 14px;\n  font-weight: 500;\n  border-radius: 6px;\n  text-decoration: none;\n  transition: 0.2s ease;\n}\n\n.fk-btn.whatsapp {\n  background: #25D366;\n  color: #fff;\n}\n\n.fk-btn.call {\n  background: #000;\n  color: #fff;\n}\n\n.fk-btn.email {\n  background: #fff;\n  color: #000;\n  border: 1px solid #000;\n}\n\n.fk-btn:hover {\n  opacity: 0.85;\n}\n\n.fk-note {\n  margin-top: 20px;\n  font-size: 13px;\n  color: #666;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_pxPebL"
   ]
 }
