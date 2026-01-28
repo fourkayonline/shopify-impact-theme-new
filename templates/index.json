@@ -118,7 +118,7 @@
     },
     "featured_collection_rL4D8Y": {
       "type": "featured-collection",
-      "name": "Featured collection",
+      "name": "Beds",
       "settings": {
         "collection": "utility-beds",
         "products": [],
@@ -127,7 +127,7 @@
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "subheading": "",
         "title": "Utility Beds Built for Everyday Use",
         "content": "<p>Strong, space-efficient beds designed for homes, hostels, rentals, and high-usage environments.</p>",
@@ -144,7 +144,7 @@
     },
     "featured_collection_4zHTFa": {
       "type": "featured-collection",
-      "name": "Featured collection",
+      "name": "Chairs",
       "settings": {
         "collection": "office-chairs",
         "products": [],
@@ -167,12 +167,26 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "custom_liquid_tANTPJ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"fourkay-promise-luxury\">\n\n  <div class=\"promise-content fade-in\">\n    <span class=\"promise-tag\">THE FOURKAY PROMISE</span>\n\n    <h2>\n      Built with Integrity.<br>\n      Backed by Commitment.\n    </h2>\n\n    <p>\n      At Fourkay, every product is more than furniture — it’s a responsibility.\n      From manufacturing quality to after-purchase support, we stand behind\n      what we build and deliver.\n    </p>\n\n    <div class=\"promise-points\">\n      <div class=\"point\">✔ 6 Months Warranty on Manufacturing Defects</div>\n      <div class=\"point\">✔ 7-Day Easy Return & Exchange</div>\n      <div class=\"point\">✔ Manufacturing-Led Quality Control</div>\n      <div class=\"point\">✔ Designed for Daily & Heavy Use</div>\n    </div>\n\n    <a href=\"https://fourkay.in/pages/fourkay-promise\" class=\"promise-btn\">\n      Read the Fourkay Promise\n    </a>\n  </div>\n\n</div>\n\n<style>\n.fourkay-promise-luxury {\n  background: linear-gradient(135deg, #0f0f0f, #1b1b1b);\n  color: #fff;\n  padding: 80px 25px;\n  border-radius: 22px;\n  margin: 60px auto;\n  max-width: 1200px;\n}\n\n.promise-content {\n  max-width: 700px;\n}\n\n.promise-tag {\n  display: inline-block;\n  font-size: 12px;\n  letter-spacing: 1.5px;\n  color: #bbb;\n  margin-bottom: 18px;\n}\n\n.fourkay-promise-luxury h2 {\n  font-size: 40px;\n  line-height: 1.2;\n  margin-bottom: 18px;\n}\n\n.fourkay-promise-luxury p {\n  font-size: 17px;\n  color: #d1d1d1;\n  margin-bottom: 30px;\n}\n\n.promise-points {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));\n  gap: 14px;\n  margin-bottom: 35px;\n}\n\n.promise-points .point {\n  font-size: 15px;\n  color: #f0f0f0;\n}\n\n.promise-btn {\n  display: inline-block;\n  padding: 14px 32px;\n  background: #fff;\n  color: #000;\n  text-decoration: none;\n  font-weight: 500;\n  border-radius: 40px;\n  transition: all 0.3s ease;\n}\n\n.promise-btn:hover {\n  background: #e6e6e6;\n  transform: translateY(-2px);\n}\n\n/* Animation */\n.fade-in {\n  opacity: 0;\n  animation: fadeIn 1.2s forwards;\n}\n\n@keyframes fadeIn {\n  to { opacity: 1; }\n}\n\n/* Mobile */\n@media (max-width: 768px) {\n  .fourkay-promise-luxury h2 {\n    font-size: 30px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "video_CjEzF7",
     "slideshow_VGFa8m",
     "featured_collection_rL4D8Y",
-    "featured_collection_4zHTFa"
+    "featured_collection_4zHTFa",
+    "custom_liquid_tANTPJ"
   ]
 }
