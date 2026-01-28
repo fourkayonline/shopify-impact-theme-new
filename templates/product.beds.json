@@ -1,0 +1,163 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h4"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_J6zFN3": {
+          "type": "liquid",
+          "name": "Reviews",
+          "settings": {
+            "liquid": "<div class=\"fourkay-reviews-wrapper\">\n\n  <h2 class=\"reviews-heading\">What Our Customers Say</h2>\n  <p class=\"reviews-subheading\">\n    Trusted by homes, hostels, and rentals across India.\n  </p>\n\n  <!-- FIRST VISIBLE REVIEW -->\n  <div class=\"reviews-grid\">\n\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Very strong bed, perfect for daily use. We ordered for our PG and the\n        quality is much better than local market beds.\n      </p>\n      <div class=\"review-footer\">\n        <span class=\"tick\">✔ Verified Purchase</span>\n        <span class=\"name\">Ramesh · Hyderabad</span>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- HIDDEN REVIEWS -->\n  <div class=\"reviews-grid hidden-reviews\">\n\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Delivery was quick and packaging was proper. Bed feels solid and doesn’t\n        make noise even after regular use.\n      </p>\n      <div class=\"review-footer\">\n        <span class=\"tick\">✔ Verified Purchase</span>\n        <span class=\"name\">Anjali · Bengaluru</span>\n      </div>\n    </div>\n\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Using this bed for hostel rooms. Very sturdy and easy to maintain.\n        Definitely worth the price.\n      </p>\n      <div class=\"review-footer\">\n        <span class=\"tick\">✔ Verified Purchase</span>\n        <span class=\"name\">Suresh · Vijayawada</span>\n      </div>\n    </div>\n\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★☆</div>\n      <p class=\"review-text\">\n        I wanted a simple and strong utility bed. This one is perfect.\n        No unnecessary design, just solid build.\n      </p>\n      <div class=\"review-footer\">\n        <span class=\"tick\">✔ Verified Purchase</span>\n        <span class=\"name\">Priya · Coimbatore</span>\n      </div>\n    </div>\n\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Good for rental property. Easy to assemble and feels durable.\n        Planning to order more.\n      </p>\n      <div class=\"review-footer\">\n        <span class=\"tick\">✔ Verified Purchase</span>\n        <span class=\"name\">Mohit · Indore</span>\n      </div>\n    </div>\n\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★☆</div>\n      <p class=\"review-text\">\n        Strong frame and good finish. Much better than the lightweight beds\n        available online.\n      </p>\n      <div class=\"review-footer\">\n        <span class=\"tick\">✔ Verified Purchase</span>\n        <span class=\"name\">Kavitha · Tirupati</span>\n      </div>\n    </div>\n\n  </div>\n\n  <!-- READ MORE BUTTON -->\n  <div class=\"reviews-toggle\">\n    <button onclick=\"toggleReviews()\" id=\"toggleBtn\">\n      Read More Reviews\n    </button>\n  </div>\n\n</div>\n\n<script>\nfunction toggleReviews() {\n  const hidden = document.querySelector('.hidden-reviews');\n  const btn = document.getElementById('toggleBtn');\n\n  hidden.classList.toggle('show');\n\n  btn.innerText = hidden.classList.contains('show')\n    ? 'Show Less Reviews'\n    : 'Read More Reviews';\n}\n</script>\n\n<style>\n.fourkay-reviews-wrapper {\n  max-width: 1100px;\n  margin: 80px auto;\n  padding: 0 20px;\n}\n\n.reviews-heading {\n  font-size: 32px;\n  text-align: center;\n}\n\n.reviews-subheading {\n  text-align: center;\n  color: #666;\n  margin-bottom: 45px;\n}\n\n.reviews-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));\n  gap: 25px;\n}\n\n.review-card {\n  background: #fafafa;\n  padding: 26px;\n  border-radius: 14px;\n  transition: transform 0.3s ease;\n}\n\n.review-card:hover {\n  transform: translateY(-6px);\n}\n\n.stars {\n  color: #f5a623;\n  font-size: 16px;\n  margin-bottom: 10px;\n}\n\n.review-text {\n  font-size: 15px;\n  color: #444;\n  line-height: 1.6;\n}\n\n.review-footer {\n  margin-top: 18px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.tick {\n  font-size: 13px;\n  color: #1a7f37;\n  font-weight: 500;\n}\n\n.name {\n  font-size: 14px;\n  font-weight: 600;\n}\n\n/* Hidden reviews */\n.hidden-reviews {\n  display: none;\n  margin-top: 30px;\n}\n.hidden-reviews.show {\n  display: grid;\n}\n\n/* Toggle */\n.reviews-toggle {\n  text-align: center;\n  margin-top: 35px;\n}\n.reviews-toggle button {\n  background: #000;\n  color: #fff;\n  padding: 12px 34px;\n  border-radius: 30px;\n  border: none;\n  font-size: 14px;\n  cursor: pointer;\n}\n.reviews-toggle button:hover {\n  opacity: 0.85;\n}\n\n/* Mobile */\n@media(max-width: 768px){\n  .reviews-heading {\n    font-size: 26px;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_JaUxfh": {
+          "type": "liquid",
+          "name": "badges",
+          "settings": {
+            "liquid": "<section class=\"fourkay-certifications\">\n  <div class=\"fourkay-certifications__container\">\n\n    <h4 class=\"fourkay-certifications__heading\">\n      Certified & Standards Compliant Manufacturing\n    </h4>\n\n    <div class=\"fourkay-certifications__icons\">\n\n      <!-- ISO -->\n      <div class=\"cert-item\">\n        <span class=\"cert-icon\">✔</span>\n        <span class=\"cert-text\">ISO 9001:2015</span>\n      </div>\n\n      <!-- CE -->\n      <div class=\"cert-item\">\n        <span class=\"cert-icon\">CE</span>\n        <span class=\"cert-text\">CE Compliant</span>\n      </div>\n\n      <!-- ANSI/BIFMA -->\n      <div class=\"cert-item\">\n        <span class=\"cert-icon\">🏢</span>\n        <span class=\"cert-text\">ANSI/BIFMA E3-2012</span>\n      </div>\n\n      <!-- BIFMA -->\n      <div class=\"cert-item\">\n        <span class=\"cert-icon\">🪑</span>\n        <span class=\"cert-text\">BIFMA Aligned</span>\n      </div>\n\n      \n\n    </div>\n\n    <p class=\"fourkay-certifications__note\">\n      Manufactured in an ISO-certified facility and aligned with international\n      furniture quality and safety standards.\n    </p>\n\n  </div>\n</section>\n\n<style>\n.fourkay-certifications {\n  margin-top: 28px;\n  padding: 22px 20px;\n  background: #ffffff;\n  border: 1px solid #e6e1d8;\n  border-radius: 10px;\n}\n\n.fourkay-certifications__heading {\n  font-size: 15px;\n  font-weight: 700;\n  margin-bottom: 14px;\n  color: #3f3f3f;\n}\n\n.fourkay-certifications__icons {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 16px;\n  margin-bottom: 10px;\n}\n\n.cert-item {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  background: #f6f1e8;\n  padding: 6px 12px;\n  border-radius: 20px;\n  border: 1px solid #e1d8c8;\n}\n\n.cert-icon {\n  font-size: 13px;\n  font-weight: 700;\n  color: #3f3f3f;\n  line-height: 1;\n}\n\n.cert-text {\n  font-size: 12.5px;\n  font-weight: 600;\n  color: #3f3f3f;\n  white-space: nowrap;\n}\n\n.fourkay-certifications__note {\n  font-size: 12.5px;\n  color: #555;\n  margin-top: 6px;\n}\n\n@media (max-width: 768px) {\n  .fourkay-certifications__icons {\n    gap: 10px;\n  }\n\n  .cert-text {\n    font-size: 12px;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_tbWY6w": {
+          "type": "liquid",
+          "name": "USPs",
+          "settings": {
+            "liquid": "<section class=\"fourkay-usps\">\n  <div class=\"fourkay-usps__container\">\n    <h3 class=\"fourkay-usps__heading\">Why Choose Fourkay Furniture</h3>\n\n    <div class=\"fourkay-usps__grid\">\n\n      <!-- USP 1 -->\n      <div class=\"fourkay-usps__item\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0685/3076/5933/files/manufacturer_14784736.png?v=1769159978\" alt=\"15+ Years Manufacturing Experience\" class=\"fourkay-usps__icon\">\n        <p>\n          <strong>15+ Years Manufacturing Experience</strong><br>\n          Built with proven processes and industry expertise.\n        </p>\n      </div>\n\n      <!-- USP 2 -->\n      <div class=\"fourkay-usps__item\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0685/3076/5933/files/quality_14594266.png?v=1769159979\" alt=\"Built for Daily Use\" class=\"fourkay-usps__icon\">\n        <p>\n          <strong>Built for Daily Use</strong><br>\n          Designed for homes, hostels, offices & institutions.\n        </p>\n      </div>\n\n      <!-- USP 3 -->\n      <div class=\"fourkay-usps__item\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0685/3076/5933/files/high-quality_5110746.png?v=1769159978\" alt=\"Strong & Durable Construction\" class=\"fourkay-usps__icon\">\n        <p>\n          <strong>Strong & Durable Construction</strong><br>\n          Focused on structural integrity and long service life.\n        </p>\n      </div>\n\n      <!-- USP 4 -->\n      <div class=\"fourkay-usps__item\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0685/3076/5933/files/edit-tool_1085704.png?v=1769160012\" alt=\"Practical Customisation Available\" class=\"fourkay-usps__icon\">\n        <p>\n          <strong>Practical Customisation Available</strong><br>\n          Sizes, materials & specs based on real usage needs.\n        </p>\n      </div>\n\n      <!-- USP 5 -->\n      <div class=\"fourkay-usps__item\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0685/3076/5933/files/rating_4142242.png?v=1769159977\" alt=\"Trusted Across South India\" class=\"fourkay-usps__icon\">\n        <p>\n          <strong>Trusted Across South India</strong><br>\n          Preferred by retailers, hostels & corporate buyers.\n        </p>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<style>\n.fourkay-usps {\n  background: #f6f1e8;\n  padding: 50px 20px;\n  margin-top: 40px;\n  border-radius: 14px;\n}\n\n.fourkay-usps__container {\n  max-width: 1200px;\n  margin: auto;\n}\n\n.fourkay-usps__heading {\n  text-align: center;\n  font-size: 26px;\n  font-weight: 700;\n  margin-bottom: 38px;\n  color: #3f3f3f;\n}\n\n.fourkay-usps__grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));\n  gap: 24px;\n}\n\n.fourkay-usps__item {\n  background: #ffffff;\n  padding: 26px 22px;\n  border-radius: 12px;\n  text-align: center;\n  box-shadow: 0 8px 24px rgba(0,0,0,0.06);\n  transition: transform 0.3s ease, box-shadow 0.3s ease;\n}\n\n.fourkay-usps__item:hover {\n  transform: translateY(-6px);\n  box-shadow: 0 14px 34px rgba(0,0,0,0.08);\n}\n\n.fourkay-usps__icon {\n  width: 40px;\n  height: auto;\n  margin: 0 auto 12px;\n  display: block;\n  opacity: 0.9; /* PREMIUM TOUCH */\n}\n\n.fourkay-usps__item p {\n  font-size: 14px;\n  color: #444;\n  line-height: 1.6;\n}\n\n@media (max-width: 768px) {\n  .fourkay-usps {\n    padding: 40px 16px;\n  }\n\n  .fourkay-usps__heading {\n    font-size: 22px;\n  }\n\n  .fourkay-usps__item p {\n    font-size: 13.5px;\n  }\n}\n</style>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "liquid_J6zFN3",
+        "liquid_JaUxfh",
+        "liquid_tbWY6w"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
