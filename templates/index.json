@@ -141,11 +141,38 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "featured_collection_4zHTFa": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "office-chairs",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Office Chairs Built for Daily Performance",
+        "content": "<p>Ergonomic comfort, sturdy construction, and durability designed for long working hours.</p>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "video_CjEzF7",
     "slideshow_VGFa8m",
-    "featured_collection_rL4D8Y"
+    "featured_collection_rL4D8Y",
+    "featured_collection_4zHTFa"
   ]
 }
