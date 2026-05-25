@@ -9,11 +9,25 @@
     <div class="page">
       <h1 class="h1 text-center">{{ page.title }}</h1>
 
-      {%- if page.content != empty -%}
-        <div class="prose">
-          {{ page.content }}
-        </div>
-      {%- endif -%}
+      <div class="prose" data-page-content>
+        {{ page.content }}
+      </div>
+
+      <script>
+        (function() {
+          var content = document.currentScript.previousElementSibling;
+          if (!content || content.textContent.trim()) return;
+
+          fetch('{{ page.url }}.json')
+            .then(function(response) { return response.ok ? response.json() : null; })
+            .then(function(data) {
+              if (data && data.page && data.page.body_html) {
+                content.innerHTML = data.page.body_html;
+              }
+            })
+            .catch(function() {});
+        })();
+      </script>
     </div>
   </div>
 </div>
